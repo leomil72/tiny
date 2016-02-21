@@ -3,10 +3,10 @@
 This core adds full support for several ATtiny microcontrollers into
 the Arduino IDE.
 
-WARNIGN! This version only works with IDE >= 1.6.7.
+## WARNING! This version only works with IDE >= 1.6.7.
 
 
-* Installation
+### Installation
 
 1) Close the IDE and, if manually installed in the past, remove the
 old cores from your_sketchbook_folder/hardware
@@ -28,3 +28,7 @@ boards, then scroll the list until you find the following entries:
 “Install” button. At the end of the installation the core will be set and
 ready and the new boards will be available from “Tools/Board” without
 the need to restart the IDE. Enjoy!
+
+Work based on the Arduino Tiny Core from https://code.google.com/archive/p/arduino-tiny/
+and libraries from https://code.google.com/archive/p/arduino-tiny/wikis/TWIMasterLibrary.wiki,
+contributed by several people.
