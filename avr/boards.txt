@@ -13,7 +13,7 @@ menu.cpu=Micro
 
 tinyx4.name=ATtiny24/44/84
 
-tinyx4.bootloader.tool=avrdude
+tinyx4.bootloader.tool=arduino:avrdude
 tinyx4.bootloader.unlock_bits=0xFF
 tinyx4.bootloader.lock_bits=0xFF
 tinyx4.build.board=AVR_TINYX4
@@ -154,7 +154,7 @@ tinyx4.menu.cpu.attiny24at16.build.core=tiny
 
 tinyx5.name=ATtiny25/45/85
 
-tinyx5.bootloader.tool=avrdude
+tinyx5.bootloader.tool=arduino:avrdude
 tinyx5.bootloader.unlock_bits=0xFF
 tinyx5.bootloader.lock_bits=0xFF
 tinyx5.build.board=AVR_TINYX5
@@ -388,7 +388,7 @@ tinyx313.name=ATtiny2313/4313
 
 tinyx313.bootloader.unlock_bits=0xFF
 tinyx313.bootloader.lock_bits=0xFF
-tinyx313.bootloader.tool=avrdude
+tinyx313.bootloader.tool=arduino:avrdude
 tinyx313.build.board=AVR_TINYX313
 
 tinyx313.menu.cpu.attiny4313at8=ATtiny4313 @ 8 MHz
