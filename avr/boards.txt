@@ -244,8 +244,9 @@ tinyx5.menu.cpu.attiny85at8b.bootloader.file=optiboot/optiboot_attiny85.hex
 tinyx5.menu.cpu.attiny85at8b.build.mcu=attiny85
 tinyx5.menu.cpu.attiny85at8b.build.f_cpu=8000000L
 tinyx5.menu.cpu.attiny85at8b.build.core=tiny
-tinyx5.menu.cpu.attiny85at8b.build.variant=tinyX5
-tinyx5.menu.cpu.attiny85at8b.build.board=AVR_TINY85
+#temporary fix to let the sketches compile
+#tinyx5.menu.cpu.attiny85at8b.build.variant=tinyX5
+#tinyx5.menu.cpu.attiny85at8b.build.board=AVR_TINY85
 
 ###########################################################################
 
