@@ -227,6 +227,7 @@ tinyx5.menu.cpu.attiny85at8.build.core=tiny
 
 tinyx5.menu.cpu.attiny85at8b=ATtiny85 @ 8 MHz w/Optiboot (internal osc.)
 
+tinyx5.menu.cpu.attiny85at8b.upload.tool=avrdude
 tinyx5.menu.cpu.attiny85at8b.upload.protocol=arduino
 tinyx5.menu.cpu.attiny85at8b.upload.speed=9600
 #bootloader takes up last 10 pages, so there is a limit on the max size.
